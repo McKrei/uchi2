@@ -28,5 +28,3 @@ if method == 'next_course':
 elif method == 'deduction':
     student.deduction()
 print(student.get_info())
-
-
