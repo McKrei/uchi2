@@ -1,19 +1,17 @@
-
+class OperationError(Exception):
+    pass
 
 def main():
-    # try:
+    try:
     #     # print(4/0)
     #     print(4/2)
 
-    # except Exception as e:
-    #     print(f'error {e}')
+        raise ValueError
 
-    l = ['ahdh', 'asdasdasfdas', 'првыив', 'Привет мир']
 
-    for string in l:
-        print((l))
-    else:
-        print('нашел Прив')
+    except ValueError:
+        print(f'ValueError')
+
 
     # finally:
     #     print('final')
