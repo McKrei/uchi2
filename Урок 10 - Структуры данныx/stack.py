@@ -1,3 +1,7 @@
+
+
+
+
 class Stack:
     def __init__(self):
         self.items = []
@@ -13,6 +17,7 @@ class Stack:
 
     def __str__(self):
         return f'{self.items}'
+
 
 stack = Stack()
 stack.push(1)
