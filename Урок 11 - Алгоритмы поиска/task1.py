@@ -8,3 +8,4 @@ for i in range(n - 1, 0, -1):
             index_max = j
     array[i], array[index_max] = array[index_max], array[i]
     print(*array)
+
